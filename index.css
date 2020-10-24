@@ -1,0 +1,210 @@
+/*CSS for test page*/
+:root {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    background: #e5e5e5;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page-wrapper{
+    background-color: #ffffff;
+    width: 1440px;
+    height: 2141px;
+    top: -1086px;
+    left: -720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: inherit;
+    padding: 0.4em 1em;
+    margin-top: 4em;
+}
+/*menu styles section*/
+.nav-menu{
+    display: flex;
+    margin-top: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.logo{
+    width: 10%;
+    background: url(logo.png);
+    background-size: 93.9px;
+    background-repeat: no-repeat;
+    width: 94.4px;
+    height: 55px;
+}
+
+a:link, :visited{
+    text-decoration: none;
+    color: #666666;
+}
+.nav-links {
+    width: 80%;
+    display: flex;
+    gap: 3px;
+    text-align: center;
+    margin-left: -30px;
+}
+.nav-links li + li {
+    margin-left: 5px;
+}
+
+.links{
+    flex: 1;
+    text-align: center;
+}
+
+#about{
+    display: none;
+}
+
+.social-media{
+    display: flex;
+    width: 15%;
+}
+
+.media-link{
+    flex: 1;
+}
+/*main content style starts here*/
+
+/*hero section*/
+
+.hero{
+    width: inherit;
+    height: 446px;
+    background: url(bg-image.png);
+    background-repeat: no-repeat;
+    background-size:1440px 446px ;
+}
+.text{
+    width: 638.55px;
+    height: 218.43px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+/*search Bar*/
+form{
+    width: 80%;
+    color: #4f4f4f;
+    margin-top: 3em;
+    margin-bottom: 50px;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid #bdbdbd;
+}
+
+form input{
+    width: 91.9%;
+    outline: none;
+    border: none;
+}
+ form button {
+     outline: none;
+     border: none;
+     background-color: inherit;
+ }
+/*Grid section*/
+.grid{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5em;
+}
+.stages{
+    padding: 0 1.5em;
+    color: #4f4f4f;
+    box-shadow: -10px 10px 15px #bdbdbd;
+    border-radius: 5px;
+}
+
+.stages h3{
+    font-size: 1.5em;
+    margin-bottom: -20px;
+}
+
+.empty{
+    border: 1px solid #bdbdbd;
+}
+.members{
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+.image1{
+    background: url(image1.jpg);
+    background-size: 70px 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+/*footer section*/
+footer{
+    width: inherit;
+    height: 516px;
+    background-color: #3d9ee3;
+    margin-top: 87.42px;
+    padding: 2em 8em;
+    display: flex;
+    gap: 2em;
+}
+.logo-footer{
+    background: url(logo.png);
+    background-size: 236px 137px;
+    width: 236px;
+    height: 137px;
+    margin: 1em;
+}
+.about{
+    color: #ffffff;
+    line-height: 1.5em;
+    font-size: 1.5rem;
+    padding: 1em;
+}
+
+footer button{
+    width: 481px;
+    height: 80px;
+    font-size: 1.5em;
+    margin-bottom: 100px;
+    color: #ffffff;
+    background-color: inherit;
+    outline: none;
+    border: none;
+}
+
+.input{
+    width: 100%;
+    height: 86px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
